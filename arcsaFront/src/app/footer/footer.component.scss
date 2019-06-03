@@ -2,4 +2,24 @@
     background-color: #404040;
     height: 15vh;
     margin-top: 10px;
+
+    .DescriptionFooter {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: #ffff;
+        padding-top: 10px;
+    }
+
+    hr{
+        width: 70%;
+    }
+    .ContainerCopyright{
+        text-align: center;
+    span.CopyrightFooter {
+        font-size: 12px;
+        color: #ffff;
+        text-align: center;
+        }
+    }
 }
