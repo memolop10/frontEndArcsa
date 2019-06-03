@@ -3,9 +3,18 @@
     <img src="./../../assets/img/arcsaLogo.png" alt="" srcset="" class="LogoArcsa">
   </div>
   <div class="LinksContainer">
+    
     <div class="SpanLinks">
-      <span class="RouterSpan">Login</span>
-      <span class="RouterSpan">Admin</span>
+        <div class="dropdown">
+        <span class="RouterSpan dropMenu"><a routerLink="/home">Home</a></span>
+        <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+      <span class="RouterSpan"><a routerLink="/login">Login</a></span>
+      <span class="RouterSpan"><a routerLink="/admin">Admin</a></span>
     </div>
   </div>
 </header>
