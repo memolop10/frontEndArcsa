@@ -17,8 +17,8 @@ import { AdminComponentComponent } from './admin/admin-component/admin-component
     HomeComponentComponent,
     LoginComponentComponent,
     AdminComponentComponent
-
   ],
+
   imports: [
     BrowserModule,
     AppRoutingModule

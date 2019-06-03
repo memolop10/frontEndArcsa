@@ -1,0 +1,20 @@
+.AdminContainer{
+    height: 70vh;
+    .ContentAdmin{
+        height: 100%;
+        margin: 10px 20%;
+        display: flex;
+        .AdminDetails{
+            border:solid 2px #000000;
+            text-align: justify;
+            padding: 10px;
+            margin:0 10px 0 0;        }
+
+        .AdminInfo{
+            border:solid 2px#000000;
+            text-align: justify;
+            padding: 10px;
+        }
+    }
+
+}
