@@ -6,6 +6,14 @@ const routes: Routes = [
   path: 'crear',
   loadChildren:'./crear/crear.module#CrearModule'
 },
+{
+  path:'lista',
+  loadChildren:'./lista/lista.module#ListaModule'
+},
+{
+  path:'editar',
+  loadChildren:'./editar/editar.module#ListaModule'
+}
 ];
 
 @NgModule({

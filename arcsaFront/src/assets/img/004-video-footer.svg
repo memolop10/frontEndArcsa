@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23.702" height="23.702" viewBox="0 0 23.702 23.702">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}
+        </style>
+    </defs>
+    <g id="_004-video-play-button" data-name="004-video-play-button">
+        <g id="Grupo_29" data-name="Grupo 29">
+            <g id="Grupo_28" data-name="Grupo 28">
+                <g id="Grupo_27" data-name="Grupo 27">
+                    <path id="Trazado_23" d="M19.258 0H4.444A4.444 4.444 0 0 0 0 4.444v14.814A4.444 4.444 0 0 0 4.444 23.7h14.814a4.444 4.444 0 0 0 4.442-4.442V4.444A4.444 4.444 0 0 0 19.258 0zm-.126 14.5a2.732 2.732 0 0 1-1.877 2.428 79.71 79.71 0 0 1-10.807 0c-1.084-.136-1.8-1.443-1.877-2.428a28.009 28.009 0 0 1 0-5.321c.08-.985.81-2.284 1.877-2.4a75.6 75.6 0 0 1 10.807 0c1.206.044 1.8 1.287 1.877 2.274a29.9 29.9 0 0 1 0 5.447z" class="cls-1" data-name="Trazado 23"/>
+                    <path id="Trazado_24" d="M222.477 196.621l4.444-2.963-4.444-2.963z" class="cls-1" data-name="Trazado 24" transform="translate(-212.107 -181.807)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

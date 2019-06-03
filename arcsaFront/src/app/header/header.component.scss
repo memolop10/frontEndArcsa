@@ -1,0 +1,31 @@
+.headerContainer{
+    height: 15vh;
+    background-color: #C8D4D8;
+    display: flex;  
+
+    .LogoContainer{
+
+        width: 25%;
+        
+        .LogoArcsa{
+            height: 80%;
+            margin: 3% 0 0 24%;
+        }
+
+    }
+
+    .LinksContainer{
+        width: 100%;
+
+        .SpanLinks{
+            display: flex;
+            justify-content: center;
+            margin-top: 2%
+        }
+
+        span.RouterSpan {
+            margin-right: 20px;
+            FONT-SIZE: 32px;
+        }
+    }
+}
