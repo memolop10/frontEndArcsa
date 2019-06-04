@@ -1,0 +1,82 @@
+.FormEditContainer{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .ContainerEdit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+        .InputsEdit {
+            display: flex;
+            flex-direction: column;
+            margin: 0 4% 4% 0;
+            input[type="text"] {
+                margin-bottom: 5%;
+                height: 30px;
+                border-radius: 5px;
+            }
+            input[type="number"] {
+                height: 30px;
+                border-radius: 5px;
+            }
+
+            .RadioContainer {
+                margin-top: 4%;
+            }
+        }
+        .GenerateCodeContainer {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 2%;
+            align-items: center;
+
+            textarea.AreaCodigo {
+                height: 30px;
+                border-radius: 5px
+            }
+
+            .ButtonGenerate{
+                margin:20px 0;
+                text-decoration: none;
+                padding: 10px;
+                font-weight: 600;
+                font-size: 11px;
+                color: #ffffff;
+                background-color: #1883ba;
+                border-radius: 6px;
+                border: 2px solid #0016b0;
+        
+              &:hover{
+                color: #1883ba;
+                background-color: #ffffff;
+              }
+            }
+        }
+    }
+
+    .ButtonsContainerUD {
+        display: flex;
+        justify-content: center;
+
+        button.ButtonUD {
+            margin: 2%;
+            text-decoration: none;
+            padding: 10px;
+            font-weight: 600;
+            font-size: 11px;
+            color: #ffffff;
+            background-color: #1883ba;
+            border-radius: 6px;
+            border: 2px solid #0016b0;
+        
+              &:hover{
+                color: #1883ba;
+                background-color: #ffffff;
+              }
+        }
+    }
+}
