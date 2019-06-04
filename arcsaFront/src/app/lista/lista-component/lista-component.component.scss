@@ -1,0 +1,64 @@
+.ListContainer{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    .FilterContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        .ButtonFilter{
+            margin: 0 0 15px 0;
+
+            button.FilterListButton {
+                margin: 20px;
+                text-decoration: none;
+                padding: 10px;
+                font-weight: 600;
+                font-size: 11px;
+                color: #ffffff;
+                background-color: #1883ba;
+                border-radius: 6px;
+                border: 2px solid #0016b0;
+        
+              &:hover{
+                color: #1883ba;
+                background-color: #ffffff;
+              }
+            }
+
+        }
+        .TableList{
+            width: 20%;
+            display: flex;
+            align-self: center;
+            justify-content: center;
+
+            table{
+                border-collapse: collapse;
+            }
+            td, th /* Asigna un borde a las etiquetas td Y th */
+            {
+                border: 1px solid black;
+                padding: 10px;
+            }
+            button.EditButton {
+                margin: 15px;
+                text-decoration: none;
+                padding: 10px;
+                font-weight: 600;
+                font-size: 11px;
+                color: #ffffff;
+                background-color: #1883ba;
+                border-radius: 6px;
+                border: 2px solid #0016b0;
+            
+                &:hover{
+                color: #1883ba;
+                background-color: #ffffff;
+              }
+            }
+        }
+    }
+}
