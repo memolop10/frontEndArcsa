@@ -1,17 +1,22 @@
 .LoginContainer{
     height: 70vh;
+    display: flex;
+    justify-content: center;
     .FormLogin{
-        height:100% ;
-        border:solid 2px #000000;
-        margin:10px 20%
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
 
     .ContainerUserInfo{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 15% 20%;
         border: solid 2px #000000;
+        background-color: #f2f2f2;
+        border-radius: 10px;
+        width: 30%;
 
         .SpanLogin{
             margin:2%
